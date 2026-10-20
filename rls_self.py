@@ -309,7 +309,7 @@ async def controller(odrive):
     k_s    = 0.0
     I      = 0.037322
     pi     = np.pi
-    a_actual = 1.006
+    a_actual = 0
 
     ekf = PendulumEKF(I, a_actual)
     u = 0
